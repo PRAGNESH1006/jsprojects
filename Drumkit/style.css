@@ -67,3 +67,7 @@ span {
   color: var(--gray);
   font-weight: 700;
 }
+
+.we {
+  width: 100px;
+}
