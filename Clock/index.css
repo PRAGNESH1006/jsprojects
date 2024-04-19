@@ -1,0 +1,59 @@
+:root {
+  --gray: #495867;
+  --blue: #577399;
+  --sky: #bdd5ea;
+  --white: #f7f7ff;
+  --red: #023047;
+}
+
+body {
+  background-color: var(--red);
+}
+
+#clockcontainer {
+  border: 20px solid var(--gray);
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  /* background:  url(R.gif) no-repeat; */
+  background-size: 100%;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: var(--sky);
+  border-radius: 10%;
+  transform-origin: bottom;
+  border-radius: 10px;
+}
+
+#hour {
+  width: 2%;
+  height: 27%;
+  left: 49%;
+  top: 23.5%;
+  opacity: 0.8;
+  /* display: none; */
+}
+
+#minute {
+  width: 1.5%;
+  /* display: none; */
+  height: 32%;
+  left: 49.3%;
+  top: 18%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 35%;
+  left: 49.5%;
+  top: 15%;
+  opacity: 0.8;
+}
